@@ -1,35 +1,69 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Joseph Kleinkopf</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="" />
+      <meta name="keywords" content=" "/>
+      <meta name="author" content="Joseph Kleinkopf">
+      <meta name="robots" content="index, follow" />
+   </head>
+   <body>
+      <!--Card-->
+      <div class="card animated fadeIn">
+         <center><img class="center animated rollIn" src="img/Joseph-Kleinkopf.jpg" alt="avatar"></center>
+         <hr>
+         <div class="name">
+            Joseph Kleinkopf
+         </div>
+         <p class="subtitle">Science Educator, Plant Scientist</p>
+         <p class="location"><i class="fa fa-map-marker"> </i><a href="https://goo.gl/maps/6hzZzrPFkitrugrk6" target="_blank"> Olympia, WA</a>
+         </p>
 
-{% for post in paginator.posts %}
-<div class="article">
-    <div class="well">
-        <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
-        {% if site.comments and post.comments %}
-            {% if site.disqus != '' %}
-            <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.url | slugify }}">Comments</a></p>
-            {% elsif site.isso != '' %}
-            <p class="author"><a href="{{ site.baseurl }}{{ post.url }}{{ site.isso_suffix }}#isso-thread">Comments</a></p>
-            {% endif %}
-        {% endif %}
-        <div class="content">
-            {{ post.content }}
-        </div>
-    </div>
-</div>
-{% endfor %}
+         <p class="subtitle">About</p>
+         <p class="body">I am currently a science teacher with North Thurston Public Schools. I completed my M.Ed. at UMass-Boston and teacher training through the Boston Teacher Residency. Previously, I completed my M.S. in the Roalson Lab at Washington State University and my B.A. at the University of Colorado.</p>
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/index.html" class="previous">Newer</a>
-      {% else %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.previous_page }}" class="previous">Newer</a>
-      {% endif %}
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.next_page }}" class="next">Older</a>
-  {% endif %}
-</div>
+         <p class = "subtitle"><a href="2019-11_KleinkopfCV.pdf">Curriculum Vitae</a></p>
+
+         <p class="subtitle">Teaching Interests</p>
+         <p class="body">Utilizing culturally relevant pedagogy and phenomenon- and project-based learning are my main teaching interests. As a science teacher, I am particularly interested in finding ways to connect scientific concepts to students' cultural backgrounds and physical surroundings. The PNW has been a great place for teaching geology and biology through ties to the region's cultures and physical surroundings.</p>
+
+         <p class="subtitle">Research Interests</p>
+         <p class="body">Broadly speaking, I am interested in using phylogenetic tools to resolve species relationships in young plant lineages. In particular, my masters work in the Roalson Lab focused on using Hyb-Seq, a relatively new phylogenomic approach, to better understand relationships within the Hawaiian <i>Cyrtandra</i>. The approach resulted in phylogenies in line with morphological hypotheses, and may help us better understand species relationships of the group with wider sampling in the future. </p>
+         <p class="body"> In the Tripp Lab at CU-Boulder, I focused on morphologically aberrant populations of plants from the Purgatory Watershed, and testing to see if molecular data from these species corroborates the morphological differences between populations. The aberrant population of one species, <i>Amorpha nana</i>, harbors both molecular signals that indicate this population has been isolated from non-aberrant populations of this species.</p>
+
+
+         <p class="icons animated pulse">
+            <a href="https://twitter.com/jokl4246" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+            </a>
+            <a href="https://www.instagram.com/jkleinkopf" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x"></i>
+            </span>
+            </a>
+            <a href="https://github.com/jkleinkopf" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x"></i>
+            </span>
+            </a>
+         </p>
+      </div>
+      <!--footer-->
+      <footer class="animated fadeIn">
+         &copy; 2019, Joseph Kleinkopf.
+      </footer>
+   </body>
+</html>
