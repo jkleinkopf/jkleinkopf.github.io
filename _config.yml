@@ -1,0 +1,71 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Joseph Kleinkopf
+email: joseph.kleinkopf@gmail.com
+description: Science Educator and Plant Scientist
+url: jkleinkopf.github.io
+keywords: ["science", "joseph", "kleinkopf"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Seattle
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Joseph Kleinkopf
+  avatar: Joseph-Kleinkopf.jpg
+  job: "Science Educator and Plant Scientist"
+  bio: 
+  email: "joseph.kleinkopf@gmail.com"
+  disqus-shortname:
+  twitter: "jokl4246"
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: "jkleinkopf"
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: "jkleinkopf"
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username
