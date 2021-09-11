@@ -1,0 +1,30 @@
+name: "my-website"
+output_dir: docs
+
+navbar:
+  title: "Joseph Kleinkopf"
+  type: inverse
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Photos"
+      href: photos.html
+  right:
+    - href: https://twitter.com/jkleinkopf92
+      icon: ion-social-twitter
+    - href: https://github.com/jkleinkopf
+      icon: fa-github
+    - href: https://scholar.google.com/citations?user=N3MhIAQAAAAJ&hl=en&oi=ao
+      icon: fa-user-graduate
+      
+output:
+  html_document:
+    css: "style.css"
+    theme: yeti
+    highlight: default 
+    includes:
+      in_header: "header.html"

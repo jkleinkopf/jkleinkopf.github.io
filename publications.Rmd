@@ -1,0 +1,32 @@
+---
+title: "Publications"
+output: 
+  html_document:
+    css: "style.css"
+---
+<br>
+
+## Peer-Reviewed Articles
+
+<ol>
+  <li value=2> __Kleinkopf, J.A.__, W.R. Roberts, W.H. Wagner, E.H. Roalson. 2019. _Diversification of Hawaiian Cyrtandra_ (Gesneriaceae) _under the influence of incomplete lineage sorting and hybridization._ Journal of Systematics and Evolution. 57(6). DOI: 10.1111/jse.12519 PDF </li>
+
+<br>
+  <li value=1> __Kleinkopf, J.A.__, D.A. Clark, and E.A. Tripp. 2017. _Aberrant Plant Diversity in the Purgatory Watershed of Southeastern Colorado and Northeastern New Mexico._ Western North American Naturalist. 77(3). DOI: 10.3398/064.077.0307 PDF </li>
+  
+</ol>
+
+<br>
+
+## Presentations
+
+<ol>
+  <li> __2018.__ Academic Showcase (Washington State University), Pullman, WA, _Detecting Hybridization in Hawaiian_ Cyrtandra _using Genome-Wide Data_ [poster; co-authored by Eric Roalson, Wade Roberts, and Warren Wagner] </li>
+
+<br>
+  <li> __2018.__ Biology Graduate Student Symposium (Washington State University), Moscow, ID, _Detecting Hybridization in Hawaiian_ Cyrtandra _using Genome-Wide Data_ [poster; co-authored by Eric Roalson, Wade Roberts, and Warren Wagner] </li>
+  
+<br>
+  <li> __2018.__ BioLunch (School of Biological Sciences, Washington State University), Pullman, WA, _Detecting Hybridization in Hawaiian_ Cyrtandra _using Genome-Wide Data_ [seminar; co-authored by Eric Roalson, Wade Roberts, and Warren Wagner] </li>
+  
+</ol>
