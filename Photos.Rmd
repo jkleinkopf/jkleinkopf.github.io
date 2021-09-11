@@ -8,16 +8,9 @@ output:
 Coming soon...
 
 <center> 
-```{r, out.width='75%', position='center', out.extra='style="padding: 10px"', echo=FALSE}
-knitr::include_graphics("images/mariners.png")
+```{r, position='center', out.extra='style="padding: 10px"', echo=FALSE}
+knitr::include_graphics("images/charlie1.jpeg")
 ```
 
-Mariners Hat </center>
+The best dog, Charlie. </center>
 
-<br>
-<center>
-```{r, out.width='75%', position='center', out.extra='style="padding: 10px"', echo=FALSE}
-knitr::include_graphics("images/oregoncoast.jpg")
-```
-
-Oregon Coast </center>
