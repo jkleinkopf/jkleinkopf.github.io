@@ -5,22 +5,25 @@ navbar:
   title: "Joseph Kleinkopf"
   type: inverse
   left:
-    - text: "Home"
+    - text: " Home"
       href: index.html
-    - text: "Research"
+    - text: " Research"
       href: research.html
-    - text: "Publications"
+    - text: " Publications"
       href: publications.html
-    - text: "Photos"
+    - text: " Photos"
       href: photos.html
   right:
-    - href: https://twitter.com/jkleinkopf92
-      icon: ion-social-twitter
     - href: https://github.com/jkleinkopf
       icon: fa-github
     - href: https://scholar.google.com/citations?user=N3MhIAQAAAAJ&hl=en&oi=ao
       icon: fa-user-graduate
-      
+    - href: "https://orcid.org/0000-0002-1949-478X"
+      icon: fa-circle-notch
+    - href: https://www.researchgate.net/profile/Joseph-Kleinkopf
+      icon: fa-square
+    - href: "mailto::jkleinkopf@unm.edu"
+      icon: fa-paper-plane
 output:
   html_document:
     css: "style.css"

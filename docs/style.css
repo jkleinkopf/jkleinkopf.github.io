@@ -1,23 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Roboto&display=swap');
 
  
  /*------------- Whole Document---------------- */
 
 h1 {
     font-family: 'Cabin', sans-serif;
-    font-size: 24;
+    font-size: 24px;
+    color: MidnightBlue;
     
 }
 
 h2 {
     font-family: 'Cabin', sans-serif;
-    font-size: 18;
+    font-size: 20px;
+    color: Tomato;
     
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    color: DimGray; 
 }
 
 /* -----------HERO IMAGE AT TOP OF PAGE -----------*/

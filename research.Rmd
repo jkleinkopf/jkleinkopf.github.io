@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: <span style="color:black">Research</span>
 output: 
   html_document:
     css: "style.css"
@@ -10,8 +10,6 @@ Coming soon...
 
 <hr>
 # Previous Research
-
-<br>
 
 ## Diversification of Hawaiian _Cyrtandra_
 
