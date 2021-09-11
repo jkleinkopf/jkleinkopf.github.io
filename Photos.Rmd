@@ -6,3 +6,18 @@ output:
 ---
 
 Coming soon...
+
+<center> 
+```{r, out.width='75%', position='center', out.extra='style="padding: 10px"', echo=FALSE}
+knitr::include_graphics("images/mariners.png")
+```
+
+Mariners Hat </center>
+
+<br>
+<center>
+```{r, out.width='75%', position='center', out.extra='style="padding: 10px"', echo=FALSE}
+knitr::include_graphics("images/oregoncoast.jpg")
+```
+
+Oregon Coast </center>
