@@ -11,7 +11,7 @@ output:
 ---
 <div style= "float:left; position: relative;">
 
-```{r, out.width = "300px", out.extra='style="padding: 15px"', echo=FALSE}
+```{r, out.width = "300px", out.extra='style="padding: 30px"', echo=FALSE}
 knitr::include_graphics("images/oregoncoast.jpg")
 ```
 </div>
