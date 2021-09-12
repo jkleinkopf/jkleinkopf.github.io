@@ -3,15 +3,9 @@ title: <span style="color:black">Photos</span>
 output: 
   html_document:
     css: "style.css"
+    includes:
+      after_body: "instagram.html"
 ---
 <body>
-Coming soon...
-
-<center> 
-```{r, position='center', out.extra='style="padding: 10px"', echo=FALSE}
-knitr::include_graphics("images/charlie1.jpeg")
-```
-
-The best dog, Charlie. </center>
 </body>
 
