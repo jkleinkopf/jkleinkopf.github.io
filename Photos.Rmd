@@ -4,7 +4,7 @@ output:
   html_document:
     css: "style.css"
 ---
-
+<body>
 Coming soon...
 
 <center> 
@@ -13,4 +13,5 @@ knitr::include_graphics("images/charlie1.jpeg")
 ```
 
 The best dog, Charlie. </center>
+</body>
 

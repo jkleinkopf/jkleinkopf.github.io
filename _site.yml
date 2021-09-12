@@ -14,16 +14,23 @@ navbar:
     - text: " Photos"
       href: photos.html
   right:
-    - href: https://github.com/jkleinkopf
-      icon: fa-github
-    - href: https://scholar.google.com/citations?user=N3MhIAQAAAAJ&hl=en&oi=ao
-      icon: fa-user-graduate
-    - href: "https://orcid.org/0000-0002-1949-478X"
-      icon: fa-circle-notch
-    - href: https://www.researchgate.net/profile/Joseph-Kleinkopf
-      icon: fa-square
-    - href: "mailto::jkleinkopf@unm.edu"
-      icon: fa-paper-plane
+    - text: "My Links"
+      menu:
+      - href: https://github.com/jkleinkopf
+        text: " | GitHub" 
+        icon: fa-github
+      - href: https://scholar.google.com/citations?user=N3MhIAQAAAAJ&hl=en&oi=ao
+        icon: fa-user-graduate
+        text: " | Google Scholar"
+      - href: "https://orcid.org/0000-0002-1949-478X"
+        icon: fa-circle-notch
+        text: " | OrcId"
+      - href: https://www.researchgate.net/profile/Joseph-Kleinkopf
+        icon: fa-square
+        text: " | ResearchGate"
+      - href: "mailto::jkleinkopf@unm.edu"
+        icon: fa-paper-plane
+        text: " | Email Me"
 output:
   html_document:
     css: "style.css"
