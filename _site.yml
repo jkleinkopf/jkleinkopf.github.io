@@ -3,17 +3,16 @@ output_dir: docs
 
 navbar:
   title: "Joseph Kleinkopf"
-  type: inverse
-  left:
+  type: 
+  right:
     - text: " Home"
       href: index.html
     - text: " Research"
       href: research.html
     - text: " Publications"
       href: publications.html
-    - text: " Photos"
+    - text: " Gallery"
       href: photos.html
-  right:
     - text: "My Links"
       menu:
       - href: https://github.com/jkleinkopf
@@ -34,7 +33,7 @@ navbar:
 output:
   html_document:
     css: "style.css"
-    theme: yeti
+    theme: default
     highlight: default 
     includes:
       in_header: "header.html"

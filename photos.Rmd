@@ -1,5 +1,5 @@
 ---
-title: <span style="color:black">Photos</span>
+title: <span style="color:black">Gallery</span>
 output: 
   html_document:
     css: "style.css"

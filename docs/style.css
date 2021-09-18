@@ -64,3 +64,28 @@ body {
   font-weight: bold;
 }
 
+
+/*---------- GALLERY -----------*/
+div.gallery {
+  margin: 5px;
+  border: 0px solid #ccc;
+  display: inline-block;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  width: 400px;
+}
+
+div.gallery:hover {
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 2px;
+  text-align: center;
+}
