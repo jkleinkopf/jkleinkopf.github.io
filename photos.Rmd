@@ -4,6 +4,9 @@ output:
   html_document:
     css: "style.css"
     includes:
+      in_header: 
+        - "header.html"
+        - "footer.html"      
       after_body: "instagram.html"
 ---
 <body>

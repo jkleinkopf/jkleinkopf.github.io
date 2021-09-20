@@ -3,6 +3,10 @@ title: <span style="color:black">Publications</span>
 output: 
   html_document:
     css: "style.css"
+    includes:
+      in_header: 
+        - "header.html"
+        - "footer.html"
 ---
 ## Peer-Reviewed Articles
 
