@@ -23,6 +23,29 @@ body {
     color: DimGray; 
 }
 
+/* -----------FOOTER  AT BOTTOM OF PAGE -----------*/
+.footer-bottom {
+    position: fixed;
+    bottom: 0;
+    /* liner gradient tints the image darker for readability*/
+    height: 40px;
+    width: 100%;
+    background-size: cover;
+    background-color: lightgrey;
+    background-position: center;
+    display: flex; /* Change to `display: none` for no hero image */
+    justify-content: center;
+    align-items: center;
+}
+
+.top-text-bottom {
+  position: fixed;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block; /* Change to `display: none` for no top text */
+  color: white;
+}
+
 /* -----------HERO IMAGE AT TOP OF PAGE -----------*/
 
 /* LARGE HERO IMAGE AT TOP OF PAGE*/
