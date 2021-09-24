@@ -37,6 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: -20px;
+    z-index: 1;
 }
 
 .top-text-bottom {
@@ -114,3 +115,4 @@ div.desc {
   padding: 2px;
   text-align: center;
 }
+
