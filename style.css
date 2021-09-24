@@ -33,6 +33,7 @@ body {
     background-size: cover;
     background-position: center;
     background-color: lightgrey;
+    opacity: 1;
     display: flex; /* Change to `display: none` for no hero image */
     justify-content: center;
     align-items: center;
