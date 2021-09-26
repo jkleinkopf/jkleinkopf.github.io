@@ -3,7 +3,7 @@ title: "Joseph Kleinkopf"
 theme: theme.css
 description: |
   Joseph Kleinkopf
-output_dir: "_site"
+output_dir: "docs"
 navbar:
   logo:
     image: favicon.png

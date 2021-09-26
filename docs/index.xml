@@ -14,22 +14,13 @@
     <generator>Distill</generator>
     <lastBuildDate>Sat, 25 Sep 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Starting a Biology PhD Program</title>
+      <title>Welcome to my page!</title>
       <dc:creator>Joseph Kleinkopf</dc:creator>
-      <link>https://jkleinkopf.com/posts/2021-09-25-starting-a-biology-phd-program</link>
-      <description>A few thought on what it means to start a PhD program in Biology</description>
-      <category>PhD</category>
-      <category>Graduate School</category>
-      <guid>https://jkleinkopf.com/posts/2021-09-25-starting-a-biology-phd-program</guid>
+      <link>https://jkleinkopf.com/posts/2021-09-25-welcome-to-my-page</link>
+      <description>A new start using distill and RMD to create a blog-like website.</description>
+      <guid>https://jkleinkopf.com/posts/2021-09-25-welcome-to-my-page</guid>
       <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Blog!</title>
-      <dc:creator>Joseph Kleinkopf</dc:creator>
-      <link>https://jkleinkopf.com/posts/welcome</link>
-      <description>Here's what I'm up to, and what this site will be.</description>
-      <guid>https://jkleinkopf.com/posts/welcome</guid>
-      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://jkleinkopf.com/posts/2021-09-25-welcome-to-my-page/charlieboo.jpeg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>

@@ -1,39 +1,19 @@
 [
   {
-    "path": "posts/2021-09-25-starting-a-biology-phd-program/",
-    "title": "Starting a Biology PhD Program",
-    "description": "A few thought on what it means to start a PhD program in Biology",
+    "path": "posts/2021-09-25-welcome-to-my-page/",
+    "title": "Welcome to my page!",
+    "description": "A new start using distill and RMD to create a blog-like website.",
     "author": [
       {
         "name": "Joseph Kleinkopf",
-        "url": "https://jkleinkopf.com"
+        "url": {}
       }
     ],
     "date": "2021-09-25",
-    "categories": [
-      "PhD",
-      "Graduate School"
-    ],
-    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-09-25T12:39:18-06:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/welcome/",
-    "title": "New Blog!",
-    "description": "Here's what I'm up to, and what this site will be.",
-    "author": [
-      {
-        "name": "Joseph Kleinkopf",
-        "url": "https://jkleinkopf.com"
-      }
-    ],
-    "date": "2021-09-24",
     "categories": [],
-    "contents": "\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-09-25T12:10:06-06:00",
+    "contents": "\nIntroduction\nHello, and welcome to my website/blog. I am hoping to write and upload a blog post once every week or two. We’ll see how it goes… but here’s to hoping it keeps me on track with my research!\nYou can find a little bit more information about me on the About page, and a little bit more about my research on the Research page. Once the lab gets going, I will be writing a little bit more about the work I do (both wet lab work, and field work) here on this page. I might also post an analysis or two, or general thoughts on the state of sciences and museums.\nIn the meantime, here is a picture of my dog Charlie getting ready for spooky season. She’s a year and a half (as of September 2021) and still has the energy of a puppy. I don’t love candy corn but I will make an exception this one time ;).\n\n\n\n\n\n\n",
+    "preview": "posts/2021-09-25-welcome-to-my-page/charlieboo.jpeg",
+    "last_modified": "2021-09-25T17:34:28-06:00",
     "input_file": {}
   }
 ]

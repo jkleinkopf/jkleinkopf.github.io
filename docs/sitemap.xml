@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://jkleinkopf.com/about.html</loc>
-    <lastmod>2021-09-25T13:38:03-06:00</lastmod>
+    <lastmod>2021-09-25T17:36:38-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://jkleinkopf.com/cv.html</loc>
+    <lastmod>2021-09-25T16:44:46-06:00</lastmod>
   </url>
   <url>
     <loc>https://jkleinkopf.com/</loc>
-    <lastmod>2021-09-25T14:33:26-06:00</lastmod>
+    <lastmod>2021-09-25T14:46:27-06:00</lastmod>
   </url>
   <url>
     <loc>https://jkleinkopf.com/publications.html</loc>
-    <lastmod>2021-09-25T13:21:13-06:00</lastmod>
+    <lastmod>2021-09-25T15:33:16-06:00</lastmod>
   </url>
   <url>
     <loc>https://jkleinkopf.com/research.html</loc>
-    <lastmod>2021-09-25T13:21:22-06:00</lastmod>
+    <lastmod>2021-09-25T17:21:12-06:00</lastmod>
   </url>
   <url>
-    <loc>https://jkleinkopf.com/posts/2021-09-25-starting-a-biology-phd-program/</loc>
-    <lastmod>2021-09-25T12:39:18-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://jkleinkopf.com/posts/welcome/</loc>
-    <lastmod>2021-09-25T12:10:06-06:00</lastmod>
+    <loc>https://jkleinkopf.com/posts/2021-09-25-welcome-to-my-page/</loc>
+    <lastmod>2021-09-25T17:34:28-06:00</lastmod>
   </url>
 </urlset>
