@@ -5,6 +5,9 @@ description: |
 author:
   - name: Joseph Kleinkopf
 date: 09-25-2021
+categories:
+  - Dogs
+  - Introduction
 output:
   distill::distill_article:
     self_contained: false
