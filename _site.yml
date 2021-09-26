@@ -1,22 +1,37 @@
-name: "Joseph Kleinkopf"
-output_dir: docs
-
+name: "joseph-blog-page"
+title: "Joseph Kleinkopf"
+theme: theme.css
+description: |
+  Joseph Kleinkopf
+output_dir: "_site"
 navbar:
-  title: "Joseph Kleinkopf"
-  type: 
+  logo:
+    image: favicon.png
+    href: index.html
+  source_url: true
   right:
-    - text: " Home"
+    - text: "Home"
       href: index.html
-    - text: " Research"
+    - text: "Research"
       href: research.html
-    - text: " Publications"
+    - text: "Publications"
       href: publications.html
-    - text: " Photos"
-      href: photos.html
-output:
-  html_document:
-    css: "style.css"
-    theme: simplex
-    highlight: default 
+    - text: "CV"
+      href: files/2021-09_KleinkopfCV.pdf
+    - text: "About"
+      href: about.html
+    - icon: fa fa-rss
+      href: index.xml
+output: 
+  distill::distill_article:
+    css: theme.css
     includes:
-      in_header: "header.html"
+      in_header: icons.html
+favicon: favicon.png
+base_url: https://jkleinkopf.com
+collections:
+  posts:
+    share: [twitter, linkedin]
+    citations: false
+
+
