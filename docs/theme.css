@@ -100,3 +100,18 @@ ul > li::marker {
     font-weight: 700;
     font-size: 1.125em;
 }
+
+
+/*Banner image*/
+.article-banner {
+  width: auto;
+  height: auto;
+  border: 0;
+}
+
+img[src="images/olympics.jpeg"] {
+  border: 0;
+  padding: 0;
+  width: 100%;
+  margin: 0px 0px -100px 0px;
+}
