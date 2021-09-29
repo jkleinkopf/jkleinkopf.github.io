@@ -65,7 +65,12 @@ d-appendix {
   --hover-color:      #00d12a;                  /* edited */
   --bkgd-color:       #fff;                     /* edited */
 }
-
+.distill-site-header .logo img {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    max-height: 25px;
+}
 .distill-site-footer {
   --text-color:       black);
   --text-size:        15px;
