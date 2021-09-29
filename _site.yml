@@ -9,7 +9,6 @@ navbar:
     image: mountain_and_flower.png
     href: index.html
   source_url: true
-  search: false
   right:
     - text: "Home"
       href: index.html
@@ -34,6 +33,5 @@ collections:
   posts:
     share: [twitter, linkedin]
     citations: false
-    
 
 
