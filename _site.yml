@@ -6,7 +6,7 @@ description: |
 output_dir: "docs"
 navbar:
   logo:
-    image: favicon.png
+    image: mountain_and_flower.png
     href: index.html
   source_url: true
   search: false
@@ -28,7 +28,7 @@ output:
     css: theme.css
     includes:
       in_header: icons.html
-favicon: favicon.png
+favicon: mountain_and_flower.png
 base_url: https://jkleinkopf.com
 collections:
   posts:
