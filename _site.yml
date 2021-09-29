@@ -9,6 +9,7 @@ navbar:
     image: mountain_and_flower.png
     href: index.html
   source_url: true
+  search: FALSE
   right:
     - text: "Home"
       href: index.html
