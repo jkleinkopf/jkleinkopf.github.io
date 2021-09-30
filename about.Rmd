@@ -1,7 +1,6 @@
 ---
 title: "About"
 ---
-## Bio
 :::float-image
 ```{r out.width='200px', out.extra='style="float:right; padding:15px"', echo=FALSE}
 knitr::include_graphics("images/kleinkopf.jpg")
