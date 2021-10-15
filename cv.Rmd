@@ -1,26 +1,22 @@
 ---
 title: "CV"
 ---
+<center>
+# Joseph A. Kleinkopf  
+<font color = "purple"> Ph.D. Student | Marx Lab | University of New Mexico</font>  
+303-478-7504 | jkleinkopf [at] unm.edu | https://jkleinkopf.com  
+</center>
 
-## Education
-#### University of New Mexico, Albuquerque, NM  
-|      PhD, Biology  |  Aug 2021 - Present  
-|      Advisor: Dr. Hannah Marx  
-   
-#### UMass-Boston, Boston, MA 
-|      MEd, Secondary Science Education |  2019 
+### Education  
+---
+| **Present**Ph.D., Biology, University of New Mexico, Albuquerque, NM  
+|		        Primary Advisor: Dr. Hannah Marx  
+|		        Dissertation Committee: TBD  
 
-#### Washington State University, Pullman, WA 
-|      MS, Plant Biology |  2018
-|      Advisor: Dr. Eric Roalson
+| 2019		M.Ed., Secondary Science Education, University of Massachusetts, Boston, MA  
 
-#### University of Colorado 
-|      BA, Molecular, Cellular, and Developmental Biology | 2015
+| 2018		M.S., Plant Biology, Washington State University, Pullman, WA  
+|		Primary Advisor: Dr. Eric Roalson  
+|		Thesis Committee: Drs. Larry Hufford, Joanna Kelley, Warren Wagner (Smithsonian   Institute)
 
-## Science Training
-#### 2021 |      NSF Museum Research Training (MRT) Program
-|      University of New Mexico
-
-
-
-
+| 2015		B.A., MCDB and Japanese, University of Colorado, Boulder, CO

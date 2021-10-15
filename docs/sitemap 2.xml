@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
+  <url>
+    <loc>https://jkleinkopf.com/about.html</loc>
+    <lastmod>2021-09-30T09:47:32-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://jkleinkopf.com/cv.html</loc>
+    <lastmod>2021-09-25T16:44:46-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://jkleinkopf.com/</loc>
+    <lastmod>2021-09-28T21:21:18-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://jkleinkopf.com/publications.html</loc>
+    <lastmod>2021-09-25T15:33:16-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://jkleinkopf.com/research.html</loc>
+    <lastmod>2021-09-25T17:21:12-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://jkleinkopf.com/posts/2021-09-25-welcome-to-my-page/</loc>
+    <lastmod>2021-09-25T19:01:45-06:00</lastmod>
+  </url>
+</urlset>
