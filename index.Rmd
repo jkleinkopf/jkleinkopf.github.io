@@ -1,13 +1,20 @@
 ---
-title: "Posts"
-site: distill::distill_website
-listing: posts
-output:
-  distill::distill_article:
-    includes:
-      in_header: header.html
+title: "About"
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+:::float-image
+```{r out.width='200px', out.extra='style="float:right; padding:15px"', echo=FALSE}
+knitr::include_graphics("images/kleinkopf.jpg")
 ```
+I am a PhD student in the [Marx Lab](https://hannahmarx.com) at the University of New Mexico, interested in the ecology and evolution of flowering plants in island and alpine systems.
+
+Prior to beginning my PhD work in 2021, I earned my M.Ed. and teaching credentials at UMass-Boston through the Boston Teacher Residency in 2019 and taught 6th grade earth and space science in Olympia, WA.
+
+Before teaching, I earned my M.S. in plant sciences at Washington State University in the [Roalson Lab](https://labs.wsu.edu/roalson/) in 2018, where I used high-throughput sequencing and species tree analyses to better understand relationships between species of Hawaiian Cyrtandra. I completed my B.A. at the University of Colorado in 2015 where I looked into the diversity of aberrant plants in the Purgatory watershed using phylogenetic tools in the [Tripp Lab](https://trippreport.com).
+:::
+
+## Contact Me
+[Google Scholar](https://scholar.google.com/citations?user=N3MhIAQAAAAJ&hl=en&oi=ao)  
+[ResearchGate](https://www.researchgate.net/profile/Joseph-Kleinkopf)  
+[GitHub](https://github.com/jkleinkopf)  
+[Orcid](https://orcid.org/0000-0002-1949-478X)  
+[Email](mailto://jkleinkopf@unm.edu)
