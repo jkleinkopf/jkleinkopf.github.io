@@ -41,9 +41,9 @@ Of course, candy is man-made and so we can't really build a phylogeny for candy,
 ## Methods
 
 ### Sampling
-To construct a phylogeny of halloween candies, 46 popular candies were selected (with the help of office colleagues). We started with a list of best and worst candies from the internet^[https://www.delish.com/food/a37827339/best-and-worst-halloween-candy/] and removed “candies” that are not actually candies (pretzels should never be given out on halloween), and expanded our list to include candy that we had received on Halloween in our own childhoods. We also included the apple in our dataset to serve as the outgroup. The apple was perhaps the original candy, providing people with a sweet treat prior to the advent of cane sugar in manufactured sweets, and as such, is useful as a comparison for the rest of our candies.
+To construct a phylogeny of Halloween candies, 46 popular candies were selected (with the help of office colleagues). We started with a list of best and worst candies from the internet^[https://www.delish.com/food/a37827339/best-and-worst-halloween-candy/] and removed “candies” that are not actually candies (pretzels should never be given out on Halloween), and expanded our list to include candy that we had received on Halloween in our own childhoods. We also included the Apple in our dataset to serve as the outgroup. The apple was perhaps the original candy, providing people with a sweet treat prior to the advent of cane sugar in manufactured sweets, and as such, is useful as a comparison for the rest of our candies.
 
-```{r, fig.cap="A plate representing the diversity of Halloweencandy we evaluated in our assessment of relatedness. We included candies from across the American candy sphere. A. Airheads; B. Butterfinger; C. Caramel Apple Pops; D. Candy Corn; E. Whoppers; F. Skittles; G. Twizzlers; H. Snickers."}
+```{r, fig.cap="A plate representing the diversity of Halloween candy we evaluated in our assessment of relatedness. We included candies from across the American candy sphere. A. Airheads; B. Butterfinger; C. Caramel Apple Pops; D. Candy Corn; E. Whoppers; F. Skittles; G. Twizzlers; H. Snickers."}
 knitr::include_graphics("candy.png")
 ```
 
