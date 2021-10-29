@@ -117,7 +117,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["candy.png","CandyConsensusTree.phy","characters.csv","descriptions.csv","spooky-sweet-phylogenetics_files/anchor-4.2.2/anchor.min.js","spooky-sweet-phylogenetics_files/bowser-1.9.3/bowser.min.js","spooky-sweet-phylogenetics_files/distill-2.2.21/template.v2.js","spooky-sweet-phylogenetics_files/figure-html5/unnamed-chunk-2-1.png","spooky-sweet-phylogenetics_files/figure-html5/unnamed-chunk-3-1.png","spooky-sweet-phylogenetics_files/header-attrs-2.11/header-attrs.js","spooky-sweet-phylogenetics_files/jquery-3.6.0/jquery-3.6.0.js","spooky-sweet-phylogenetics_files/jquery-3.6.0/jquery-3.6.0.min.js","spooky-sweet-phylogenetics_files/jquery-3.6.0/jquery-3.6.0.min.map","spooky-sweet-phylogenetics_files/popper-2.6.0/popper.min.js","spooky-sweet-phylogenetics_files/tippy-6.2.7/tippy-bundle.umd.min.js","spooky-sweet-phylogenetics_files/tippy-6.2.7/tippy-light-border.css","spooky-sweet-phylogenetics_files/tippy-6.2.7/tippy.css","spooky-sweet-phylogenetics_files/tippy-6.2.7/tippy.umd.min.js","spooky-sweet-phylogenetics_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["candy.png","CandyConsensusTree.phy","characters.csv","descriptions.csv","spooky-sweet-phylogenetics_files/anchor-4.2.2/anchor.min.js","spooky-sweet-phylogenetics_files/bowser-1.9.3/bowser.min.js","spooky-sweet-phylogenetics_files/distill-2.2.21/template.v2.js","spooky-sweet-phylogenetics_files/figure-html5/unnamed-chunk-2-1.png","spooky-sweet-phylogenetics_files/figure-html5/unnamed-chunk-3-1.png","spooky-sweet-phylogenetics_files/figure-html5/unnamed-chunk-4-1.png","spooky-sweet-phylogenetics_files/header-attrs-2.11/header-attrs.js","spooky-sweet-phylogenetics_files/jquery-3.6.0/jquery-3.6.0.js","spooky-sweet-phylogenetics_files/jquery-3.6.0/jquery-3.6.0.min.js","spooky-sweet-phylogenetics_files/jquery-3.6.0/jquery-3.6.0.min.map","spooky-sweet-phylogenetics_files/kePrint-0.0.1/kePrint.js","spooky-sweet-phylogenetics_files/lightable-0.0.1/lightable.css","spooky-sweet-phylogenetics_files/popper-2.6.0/popper.min.js","spooky-sweet-phylogenetics_files/tippy-6.2.7/tippy-bundle.umd.min.js","spooky-sweet-phylogenetics_files/tippy-6.2.7/tippy-light-border.css","spooky-sweet-phylogenetics_files/tippy-6.2.7/tippy.css","spooky-sweet-phylogenetics_files/tippy-6.2.7/tippy.umd.min.js","spooky-sweet-phylogenetics_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -1439,6 +1439,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   <!--/radix_placeholder_distill-->
   <script src="spooky-sweet-phylogenetics_files/header-attrs-2.11/header-attrs.js"></script>
+  <script src="spooky-sweet-phylogenetics_files/kePrint-0.0.1/kePrint.js"></script>
+  <link href="spooky-sweet-phylogenetics_files/lightable-0.0.1/lightable.css" rel="stylesheet" />
   <script src="spooky-sweet-phylogenetics_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="spooky-sweet-phylogenetics_files/popper-2.6.0/popper.min.js"></script>
   <link href="spooky-sweet-phylogenetics_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
@@ -1522,40 +1524,237 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </ol>
 <h2 id="methods">Methods</h2>
 <h3 id="sampling">Sampling</h3>
-<p>To construct a phylogeny of Halloween candies, 46 popular candies were selected (with the help of office colleagues). We started with a list of best and worst candies from the internet<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and removed “candies” that are not actually candies (pretzels should never be given out on Halloween), and expanded our list to include candy that we had received on Halloween in our own childhoods. We also included the Apple in our dataset to serve as the outgroup. The apple was perhaps the original candy, providing people with a sweet treat prior to the advent of cane sugar in manufactured sweets, and as such, is useful as a comparison for the rest of our candies.</p>
+<p>To construct a phylogeny of Halloween candies, 46 popular candies were selected (with the help of office colleagues). We started with a list of best and worst candies from the internet<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, removed “candies” that are not actually candies (pretzels should never be given out on Halloween), and expanded our list to include candy that we had received on Halloween in our own childhoods (figure 1). We also included the Apple in our dataset to serve as the outgroup. The apple was perhaps the original candy, providing people with a sweet treat prior to the advent of cane sugar in manufactured sweets, and as such, is useful as a comparison for the rest of our candies.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="figure"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
-<img src="candy.png" alt="A plate representing the diversity of Halloween candy we evaluated in our assessment of relatedness. We included candies from across the American candy sphere. A. Airheads; B. Butterfinger; C. Caramel Apple Pops; D. Candy Corn; E. Whoppers; F. Skittles; G. Twizzlers; H. Snickers." width="1050" />
+<img src="candy.png" alt="A plate representing the diversity of Halloween candy we evaluated in our assessment of relatedness. We included candies from across the American candy-sphere. A. Airheads; B. Butterfinger; C. Caramel Apple Pops; D. Candy Corn; E. Whoppers; F. Skittles; G. Twizzlers; H. Snickers." width="1050" />
 <p class="caption">
-Figure 1: A plate representing the diversity of Halloween candy we evaluated in our assessment of relatedness. We included candies from across the American candy sphere. A. Airheads; B. Butterfinger; C. Caramel Apple Pops; D. Candy Corn; E. Whoppers; F. Skittles; G. Twizzlers; H. Snickers.
+Figure 1: A plate representing the diversity of Halloween candy we evaluated in our assessment of relatedness. We included candies from across the American candy-sphere. A. Airheads; B. Butterfinger; C. Caramel Apple Pops; D. Candy Corn; E. Whoppers; F. Skittles; G. Twizzlers; H. Snickers.
 </p>
 </div>
 </div>
 <h3 id="characters">Characters</h3>
-<p>We evaluated each candy and our outgroup sample for the “Shape” character (seven possible character states) and for 21 presence-absence characters. For the “Peanuts” character, we considered both whole peanuts and peanut butter to have peanuts. To distinguish between these, the character “Crunchy” is present for candies with whole peanuts, and absent for those with peanut butter only. A table of candies and their traits and descriptions is provided below.</p>
+<p>We evaluated each candy and our outgroup sample for the “Shape” character (seven possible character states) and for 21 presence-absence characters. For the “Peanuts” character, we considered both whole peanuts and peanut butter to have peanuts. To distinguish between these, the character “Crunchy” is present for candies with whole peanuts, and absent for those with peanut butter only (table 1).</p>
+<div class="layout-chunk" data-layout="l-body">
+<table class=" lightable-classic lightable-hover" style="font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:unnamed-chunk-3">Table 1: </span>Table 1. Table of characters, their descriptions, and character states for each.
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Character
+</th>
+<th style="text-align:left;">
+Description
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Chocolate
+</td>
+<td style="text-align:left;">
+Presence or absence of chocolate. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Caramel
+</td>
+<td style="text-align:left;">
+Presence or absence of caramel. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nougat
+</td>
+<td style="text-align:left;">
+Presence or absence of nougat. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Toffee
+</td>
+<td style="text-align:left;">
+Presence or absence of toffee. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wafer
+</td>
+<td style="text-align:left;">
+Presence or absence of wafer. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lollipop
+</td>
+<td style="text-align:left;">
+Presence or absence of a lollipop (stick). 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Hard Candy
+</td>
+<td style="text-align:left;">
+Presence or absence of hard candy. Hard candy is defined as candy that cannot easily be chewed. For example, peanuts are hard but they can easily be chewed; jolly ranchers are hard cand cannot be chewed. 0 = Not hard, 1 = Hard.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Peanuts
+</td>
+<td style="text-align:left;">
+Presence or absence of peanuts. Both whole peanuts and peanut butter was counted as presence of peanuts. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Almonds
+</td>
+<td style="text-align:left;">
+Presence or absence of almonds. Both whole almonds and almond butter was counted as presence of peanuts. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Shape
+</td>
+<td style="text-align:left;">
+Shape of the candy. Candies were classified into shape categories based on shape and size as best as possible. A representative of each shape is given in parentheses to provide an example. 0 = candy bar (Snickers), 1 = ball (Blow Pops), 2 = patty (Reese’s), 3 = rope (Red Vines), 4 = small spheroid (M&amp;M’s), 5 = rectangular prism (Starbursts), 6 = log (Tootsie Rolls), 7 = other (Runts).
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sour
+</td>
+<td style="text-align:left;">
+Presence or absence of sour flavor. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Crunchy
+</td>
+<td style="text-align:left;">
+Presence or absence of crunchy texture. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mint
+</td>
+<td style="text-align:left;">
+Presence or absence of mint flavor. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coconut
+</td>
+<td style="text-align:left;">
+Presence or absence of coconut flakes or coconut flavor. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Shell
+</td>
+<td style="text-align:left;">
+Presence or absence of a shell. Shell is broadly defined, including the outer layer of chocolate or hard candy, but does not include the outer coating of candy bars. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Biscuit
+</td>
+<td style="text-align:left;">
+Presence or absence of biscuits. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Rice
+</td>
+<td style="text-align:left;">
+Presence or absence of puffed rice. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Segmented
+</td>
+<td style="text-align:left;">
+Presence or absence of divisions meant for cutting or breaking. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Gummy
+</td>
+<td style="text-align:left;">
+Presence or absence of chewy texture. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Fruit-Flavored
+</td>
+<td style="text-align:left;">
+Presence or absence of fruit flavor. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Malt
+</td>
+<td style="text-align:left;">
+Presence or absence of malt. 0 = Absent, 1 = Present.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mousse
+</td>
+<td style="text-align:left;">
+Presence or absence of mousse. 0 = Absent, 1 = Present.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 <h3 id="phylogeny">Phylogeny</h3>
-<p>To construct our morphology-based phylogeny, we imported our character data-frame .csv file into Mesquite<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. A phylogeny for our dataset was constructed using the Treelength criterion for tree search, which calculates the parsimony treelength of a given tree and matrix. Subtree pruning and regrafting was used for tree rearrangement and Maxtrees was set to 100. Trees were re-rooted using Apple as the outgroup, and a majority-rule consensus tree with a threshold of 0.5 was constructed from the 100 most parsimonious tree replicates.</p>
-<p>The treefile was imported into ggTree<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> for visualization. While it be ideal to leave Apple in our phylogeny, we had some difficulties visualizing the phylogeny without a polytomy forming at the base of the tree, so we pruned Apple out of the phylogeny all together. The tree itself, however, should be assumed to be rooted.</p>
+<p>To construct our morphology-based phylogeny, we imported our character data-frame .csv file into Mesquite<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. A phylogeny for our dataset was constructed using the Treelength criterion for tree search, which calculates the parsimony treelength of a given tree and matrix. Subtree pruning and regrafting was used for tree rearrangement and Maxtrees was set to 100. Trees were re-rooted using Apple as the outgroup, and a majority-rule consensus tree with a threshold of 0.5 was constructed from the 100 most parsimonious trees.</p>
+<p>The treefile was imported into ggTree<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> for visualization. While it would be ideal to leave Apple in our phylogeny, we had some difficulties visualizing the phylogeny without a polytomy forming at the base of the tree, so we pruned Apple out of the phylogeny all together. The tree itself, however, should be assumed to be rooted.</p>
 <h2 id="results-discussion">Results &amp; Discussion</h2>
 <h3 id="characters-1">Characters</h3>
 <p>After assigning character values for each candy, six characters were parsimony uninformative (Toffee, Wafer, Mint, Biscuit, Malt, and Mousse). The rest were of the characters were informative (see table below). In retrospect, we could have added more characters and removed parsimony uninformative characters from the matrix, but… for the fun of it, we kept them in the matrix.</p>
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4HyQqTnbOzqnv2xWDluFX91mS5X8s98JPb6XsjBsqItfoT9cUhTCEWNlsY_Pdfaivpjsc6zVo2VbR/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" height="300">
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4HyQqTnbOzqnv2xWDluFX91mS5X8s98JPb6XsjBsqItfoT9cUhTCEWNlsY_Pdfaivpjsc6zVo2VbR/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" height="500">
 </iframe>
 <h3 id="phylogeny-1">Phylogeny</h3>
-<p>Our phylogeny contains interesting clades that have been highlighted in the phylogeny below in orange, red, and purple. The clade highlighted in purple is a clade we’ve called “Classic Candies” and includes a clade of Lollipops (DumDumPops, TootsiePops, BlowPops and CaramelApplePops), a clade that I’ll informally call the “Oldies” (WerthersOriginals, CandyCorn, Rolos), and a few other candies with some similarities (Warheads, JollyRanchers, and Gobstoppers).</p>
+<p>Our phylogeny contains interesting clades that have been highlighted in the phylogeny below in red, orange, and purple. The clade highlighted in red is a clade we’ve called “Peanuty,” the clade in orange we’ve dubbed “Segmented,” and the clade in purple we’ve named “Classic Candies” (figure 2).</p>
 <div class="layout-chunk" data-layout="l-body">
-<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
-<img src="spooky-sweet-phylogenetics_files/figure-html5/unnamed-chunk-3-1.png" alt="Majority rule consensus tree of 100 most parsimonious trees based on morphological candy data. Three clades of interest are highlighted: Red: 'Peanuty' clade; Orange: 'Segmented' clade; Purple: 'Classic Candies' clade" width="624" data-distill-preview=1 />
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="spooky-sweet-phylogenetics_files/figure-html5/unnamed-chunk-4-1.png" alt="Majority rule consensus tree of 100 most parsimonious trees based on morphological candy data. Three clades of interest are highlighted: Red: 'Peanuty' clade; Orange: 'Segmented' clade; Purple: 'Classic Candies' clade" width="624" data-distill-preview=1 />
 <p class="caption">
 Figure 2: Majority rule consensus tree of 100 most parsimonious trees based on morphological candy data. Three clades of interest are highlighted: Red: ‘Peanuty’ clade; Orange: ‘Segmented’ clade; Purple: ‘Classic Candies’ clade
 </p>
 </div>
 </div>
-<p>I love that these “Classic Candies” branch off from the rest of the candy group early in the phylogeny, indicating they share more ancestral traits similar to those of Apples and other candies that branch off even earlier (Nerds, Smarties, and Runts). Along those lines, it is funny that Runts branch off from the rest of the candies first, because their shapes resemble those of fruits (unintended)!</p>
-<p>Another interesting clade is the “Segmented” clade (HersheysBar, KitKat, MrGoodbar, NestleCrunch). Segmented was also a character, but because they also have other character traits that are not necessarily common among these candies and which are present in other candies, I was not necessarily expecting them to group together.</p>
-<p>The other interesting clade, “Peanuty” (Whoppers, M&amp;Ms, ReesesPieces, Reeses, Butterfinger) caught my eye simply because this might be the tastiest (in my opinion) clade of the bunch. While Whoppers and M&amp;Ms don’t necessarily have peanuts, their similarity in shape to ReesesPieces is probably what caused these five candies to group together.</p>
+<p>“Classic Candies” includes a clade of Lollipops (DumDumPops, TootsiePops, BlowPops and CaramelApplePops), a clade that I’ll informally call the “Oldies” (WerthersOriginals, CandyCorn, Rolos), and a few other candies with some similarities (Warheads, JollyRanchers, and Gobstoppers). I love that these “Classic Candies” branch off from the rest of the candy group early in the phylogeny, indicating they share more ancestral traits similar to those of Apples and other candies that branch off even earlier (Nerds, Smarties, and Runts). These candies are definitely the kinds that I think of when I think of my grandparents (always a bowl of Werther’s Originals on the dining table for some reason). Along those lines, it is funny that Runts branch off from the rest of the candies first, because their shapes resemble those of fruits (unintended)!</p>
+<p>Another interesting clade is the “Segmented” clade (HersheysBar, KitKat, MrGoodbar, NestleCrunch). Segmented was also a character, but because they also have other character traits that are not necessarily common among these candies and which are present in other candies, I was not necessarily expecting them to group together. These candies are all easily shareable chocolate candies, and while not at the top of my list in terms of candies I liked to receive while trick-or-treating, still a good bunch nonetheless.</p>
+<p>The final interesting clade, “Peanuty” (Whoppers, M&amp;Ms, ReesesPieces, Reeses, Butterfinger) caught my eye simply because this might be the tastiest (in my opinion) clade of the bunch. While Whoppers and M&amp;Ms don’t necessarily have peanuts, their similarity in shape to ReesesPieces is probably what caused these five candies to group together.</p>
+<p>I am sure there are a lot of other fun/funny results in our phylogeny - please take a look and let me know if anything stands out to you!</p>
 <h3 id="conclusions">Conclusions</h3>
-<p>I had a lot of fun building this phylogeny, even if it really has no basis in anything real. It was my first time building a morphological trait matrix and my first time using ggTree to build phylogenies. This idea was based on a couple of just-for-fun phylogenies I have seen built around silly things (for example, bag ties<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>). I hope you enjoyed and if you have any thoughts/ideas/suggestions/critiques (anything I need to fix?) please send me an email! Happy Halloween!</p>
+<p>I had a lot of fun building this phylogeny, even if it has no basis in anything “real”. It was my first time building a morphological trait matrix and my first time using ggTree to visualize phylogenies. This idea was based on a couple of just-for-fun phylogenies I have seen built around silly things (for example, bag ties<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>) and I am excited to see what others come up with in the future. I hope you enjoyed and if you have any thoughts/ideas/suggestions/critiques (anything I need to fix?) please send me an email!</p>
+<p>Happy Halloween!</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <section class="footnotes" role="doc-endnotes">
 <hr />
