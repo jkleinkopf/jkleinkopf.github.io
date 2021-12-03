@@ -19,8 +19,8 @@ navbar:
       href: publications.html
     - text: "CV"
       href: files/2021-10_KleinkopfCV.pdf
-    - text: "About"
-      href: about.html
+    - text: "Posts"
+      href: posts.html
     - icon: fa fa-rss
       href: index.xml
 output: 
