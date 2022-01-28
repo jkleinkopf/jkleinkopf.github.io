@@ -1,4 +1,4 @@
-name: "joseph-blog-page"
+name: "Joseph Kleinkopf"
 title: "Joseph Kleinkopf"
 theme: theme.css
 description: |
@@ -14,7 +14,13 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Research"
-      href: research.html
+      menu:
+        - text: "Alpine Communities"
+          href: alpine.html
+        - text: "Hawaiian Cyrtandra"
+          href: cyrtandra.html
+        - text: "Purgatory Plants"
+          href: purgatory.html
     - text: "Publications"
       href: publications.html
     - text: "CV"
