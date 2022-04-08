@@ -130,18 +130,18 @@ p {
 }
 
 .research h1 {
-    color: rgb(0, 225, 255);
-    text-shadow: 2px 2px rgb(255, 247, 0);
+    color: rgb(139, 219, 159);
+    text-shadow: 2px 2px rgb(255, 0, 251);
 }
 
 .research p {
-    text-shadow: 1px 1px rgb(195, 0, 188);
+    text-shadow: 1px 1px rgb(22, 100, 255);
     color: rgb(255, 255, 255) !important;
 }
 
 .research a {
-    text-shadow: 1px 1px rgb(0, 47, 255);
-    color: rgb(247, 0, 255) !important;
+    text-shadow: 1px 1px rgb(255, 242, 3);
+    color: rgb(131, 211, 255) !important;
 }
 
 .research a:hover {
@@ -198,8 +198,8 @@ p {
 }
 
 .contact h1 {
-    color: rgb(0, 151, 5);
-    text-shadow: 2px 2px rgb(119, 176, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(255, 242, 0);
 }
 
 .contact p {
@@ -220,7 +220,7 @@ p {
 /* IMAGES IMAGES IMAGES IMAGES IMAGES IMAGES IMAGES IMAGES IMAGES IMAGES  */
 
 .circle-img {
-    width: 25vw;
+    width: 300px;
     height: auto;
     border-radius: 50%;
     box-shadow: 0.1em 0.1em yellow;
@@ -234,8 +234,8 @@ p {
 }
 
 .research-img {
-    max-width: 13vw;
-    height: 13vw;
+    max-width: 200px;
+    height: 200px;
     border-radius: 50%;
     /* filter:grayscale(); */
     box-shadow: 0.1em 0.1em rgb(0, 225, 255);
