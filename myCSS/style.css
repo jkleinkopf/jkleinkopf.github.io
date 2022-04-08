@@ -130,8 +130,8 @@ p {
 }
 
 .research h1 {
-    color: rgb(255, 255, 0);
-    text-shadow: 2px 2px rgb(80, 243, 255);
+    color: rgb(0, 225, 255);
+    text-shadow: 2px 2px rgb(255, 247, 0);
 }
 
 .research p {
@@ -198,8 +198,8 @@ p {
 }
 
 .contact h1 {
-    color: rgb(0, 255, 8);
-    text-shadow: 2px 2px rgb(11, 0, 227);
+    color: rgb(0, 151, 5);
+    text-shadow: 2px 2px rgb(119, 176, 255);
 }
 
 .contact p {
