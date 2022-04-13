@@ -148,6 +148,14 @@ body {
     text-decoration: none !important;
 }
 
+.twitter:hover {
+    fill: rgb(4, 171, 255);
+}
+
+.github:hover {
+    fill: black;
+}
+
 /* PUBLICATIONS */
 
 .pubs {
