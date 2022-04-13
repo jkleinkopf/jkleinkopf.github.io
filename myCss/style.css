@@ -1,0 +1,183 @@
+/* GENERAL */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 400 !important;
+    color: black !important;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+h1 {
+    font-size: 64px !important;
+}
+
+h2 {
+    font-size: 48px !important;
+}
+
+h3 {
+    font-size: 36px !important;
+}
+
+h4 {
+    font-size: 28px !important;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-size: large;
+    color: black;
+}
+
+p a {
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+p a:hover {
+    color: rgb(255, 0, 230) !important;
+    text-decoration: underline !important;
+    text-decoration-color: black !important;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+::selection {
+    background: rgb(255, 0, 230); /* WebKit/Blink Browsers */
+    color: white;
+  }
+  ::-moz-selection {
+    background: rgb(255, 0, 230); /* WebKit/Blink Browsers */
+    color: white;
+  }
+  
+/* NAVBAR */
+.navbar {
+    font-family: 'Outfit', sans-serif !important;
+    background-color: white !important;
+}
+
+.navbar a:hover {
+    color: rgb(0, 255, 0) !important;
+}
+
+.navbar-brand img {
+    width: 30px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.navbar-nav {
+    margin-right: 20px;
+}
+
+.active {
+    text-decoration: underline !important;
+}
+
+
+/* CONTAINERS */
+
+.content .container {
+    padding-top: 60px !important;
+    max-width: 960px !important;
+}
+
+/* IMAGES */
+
+.profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px rgb(0, 255, 0);
+}
+
+.profile:hover {
+    box-shadow: 2px 2px rgb(255, 0, 230) ;
+}
+
+.charlie {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px rgb(0, 255, 0);
+}
+
+.charlie:hover {
+    box-shadow: 2px 2px rgb(255, 0, 230) ;
+}
+
+/* FOOTER */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    flex-shrink: 0;
+    background-color: rgb(255, 255, 255);
+    min-height: 50px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer p {
+    font-size: small;
+    color: rgb(158, 158, 158);
+}
+
+.footer .container {
+    max-width: 960px !important;
+}
+
+.footer svg {
+    height: 15px;
+    margin: 5px auto;
+    fill: rgb(158, 158, 158);
+}
+
+.footer a {
+    text-decoration: none !important;
+}
+
+/* PUBLICATIONS */
+
+.pubs {
+    font-family: 'EB Garamond', serif;
+    font-size: larger;
+    margin-bottom: 20px;
+    text-indent: -36px;
+    padding-left: 36px;
+}
+
+.pubs a {
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+.pubs a:hover {
+    color: rgb(255, 0, 230) !important;
+    text-decoration: underline !important;
+    text-decoration-color: black !important;
+}
+
+/* FIGURES */
+
+.figure-caption {
+    font-size: small;
+    color: rgb(158, 158, 158);
+}
+
+/* EMBEDDED */
+
+.twitter-timeline {
+    margin-top: 64px;
+}
