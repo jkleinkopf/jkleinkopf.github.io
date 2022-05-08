@@ -12,7 +12,7 @@ html, body {
 }
 
 h1 {
-    font-size: 64px !important;
+    font-size: 50px !important;
 }
 
 h2 {
@@ -95,22 +95,26 @@ p a:hover {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    box-shadow: 2px 2px rgb(0, 255, 0);
+    /* box-shadow: 2px 2px rgb(0, 255, 0); */
+    border: 5px solid rgb(0, 255, 0);
 }
 
 .profile:hover {
-    box-shadow: 2px 2px rgb(255, 0, 230) ;
+    border: 5px solid rgb(255, 0, 230);
+    /* box-shadow: 2px 2px rgb(255, 0, 230) ; */
 }
 
 .charlie {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    box-shadow: 2px 2px rgb(0, 255, 0);
+    /* box-shadow: 2px 2px rgb(0, 255, 0); */
+    border: 5px solid rgb(0, 255, 0);
 }
 
 .charlie:hover {
-    box-shadow: 2px 2px rgb(255, 0, 230) ;
+    /* box-shadow: 2px 2px rgb(255, 0, 230) ; */
+    border: 5px solid rgb(255, 0, 230);
 }
 
 /* FOOTER */
