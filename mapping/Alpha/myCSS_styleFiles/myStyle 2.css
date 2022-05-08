@@ -1,0 +1,55 @@
+/* Text and Fonts */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+    font-family: 'DM Serif Display', serif !important;
+}
+
+.navbar li {
+    margin: 2px
+}
+
+.btn a {
+    color: white;
+}
+
+.btn a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.logo {
+    height: 30px;
+    margin-right: 5px;
+    text-shadow: 1px 1px white;
+}
+
+
+/* CONTENT */
+.row{
+    margin-top: 60px;
+    width: 100%;
+}
+
+/* MODAL */
+.modal-backdrop {
+    z-index: -1000 !important;
+}
+
+.modal-header {
+    font-family: 'DM Serif Display', serif !important;
+    color: darkred !important;
+}
+
+/* MAP  */
+
+#mapId {
+    height: 92vh;
+    width: 100%;
+}
+
+/*From Sample Code*/
