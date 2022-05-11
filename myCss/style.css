@@ -96,14 +96,12 @@ p a:hover {
 .content .container {
     padding-top: 60px !important;
     max-width: 960px !important;
+}
+
+#landing {
     position: relative !important;
     top: 10%;
 }
-
-/* #landing {
-    position: relative !important;
-    top: 10%;
-} */
 
 /* IMAGES */
 
