@@ -98,10 +98,16 @@ p a:hover {
     max-width: 960px !important;
 }
 
-#landing {
-    position: relative !important;
-    top: 10%;
+#spacer {
+    height: 120px
 }
+
+/* Remove spacer block */
+@media screen and (max-width:1000px) {
+    #spacer {
+        display: none !important;
+    }
+    }
 
 /* IMAGES */
 
