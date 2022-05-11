@@ -77,8 +77,17 @@ p a:hover {
     margin-right: 20px;
 }
 
+.nav-link {
+    padding-left: 10px;
+}
+
 .active {
-    text-decoration: underline !important;
+    /* text-decoration: underline !important; */
+    color: rgb(255, 0, 230) !important;
+    font-weight: bolder;
+    /* color: white !important; */
+    /* border-radius: 20px; */
+    /* padding-left: 10px; */
 }
 
 
@@ -87,7 +96,14 @@ p a:hover {
 .content .container {
     padding-top: 60px !important;
     max-width: 960px !important;
+    position: relative !important;
+    top: 10%;
 }
+
+/* #landing {
+    position: relative !important;
+    top: 10%;
+} */
 
 /* IMAGES */
 
@@ -131,7 +147,7 @@ body {
 
 .footer p {
     font-size: small;
-    color: rgb(158, 158, 158);
+    color: rgb(255, 0, 230);
 }
 
 .footer .container {
@@ -141,7 +157,7 @@ body {
 .footer svg {
     height: 15px;
     margin: 5px auto;
-    fill: rgb(158, 158, 158);
+    fill: rgb(255, 0, 230);
 }
 
 .footer a {
