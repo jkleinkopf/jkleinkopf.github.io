@@ -1,5 +1,5 @@
 /* FADE IN AND FADEOUT*/
-body {
+.content {
     -webkit-animation: fadein 0.5s;
     /* Safari, Chrome and Opera > 12.1 */
     -webkit-animation: fadeout 0.5s;
@@ -208,6 +208,9 @@ p a:hover {
     color: rgb(0, 255, 0) !important;
 }
 
+.navbar-brand {
+    font-weight: bolder;
+}
 .navbar-brand img {
     width: 30px;
     height: auto;
@@ -220,6 +223,8 @@ p a:hover {
 
 .nav-link {
     padding-left: 10px;
+    color: black !important;
+    font-weight: bolder;
 }
 
 .active {
