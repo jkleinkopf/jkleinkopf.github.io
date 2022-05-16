@@ -376,6 +376,7 @@ body {
 }
 
 .footer p {
+    font-family: 'Outfit', sans-serif !important;
     font-size: small;
     color: rgb(255, 0, 230);
 }
