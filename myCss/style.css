@@ -129,13 +129,14 @@ h5,
 h6 {
     font-family: 'Outfit', sans-serif !important;
     font-weight: 400 !important;
-    color: black !important;
+    color: #1e1f24 !important;
 }
 
 html,
 body {
     scroll-behavior: smooth;
     height: 100%;
+    background-color: #f7f7f7 !important;
 }
 
 h1 {
@@ -168,19 +169,19 @@ h4 {
 p {
     font-family: 'EB Garamond', serif;
     font-size: large;
-    color: black;
+    color: #1e1f24;
 }
 
 p a {
-    color: black !important;
+    color: #1e1f24 !important;
     text-decoration: underline !important;
-    text-decoration-color: black !important;
+    text-decoration-color: #1e1f24 !important;
 }
 
 p a:hover {
     color: rgb(0, 175, 0) !important;
     text-decoration: underline !important;
-    text-decoration-color: black !important;
+    text-decoration-color: #1e1f24 !important;
 }
 
 .content {
@@ -190,13 +191,13 @@ p a:hover {
 ::selection {
     background: rgb(0, 175, 0);
     /* WebKit/Blink Browsers */
-    color: white;
+    color: #f7f7f7;
 }
 
 ::-moz-selection {
     background: rgb(0, 175, 0);
     /* WebKit/Blink Browsers */
-    color: white;
+    color: #f7f7f7;
 }
 
 .center-img {
@@ -214,7 +215,7 @@ p a:hover {
 /* NAVBAR */
 .navbar {
     font-family: 'Outfit', sans-serif !important;
-    background-color: white !important;
+    background-color: #f7f7f7 !important;
 }
 
 .navbar a:hover {
@@ -266,7 +267,7 @@ p a:hover {
 
 .project a {
     text-decoration: none !important;
-    color: black !important;
+    color: #1e1f24 !important;
 }
 
 .project:hover {
@@ -380,7 +381,7 @@ body {
 
 .footer {
     flex-shrink: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #f7f7f7;
     min-height: 50px;
     margin-top: 30px;
     padding-top: 10px;
@@ -412,7 +413,7 @@ body {
 }
 
 .github:hover {
-    fill: black;
+    fill: #1e1f24;
 }
 
 /* PUBLICATIONS */
@@ -426,14 +427,14 @@ body {
 }
 
 .pubs a {
-    color: black !important;
+    color: #1e1f24 !important;
     text-decoration: underline !important;
 }
 
 .pubs a:hover {
     color: rgb(0, 175, 0) !important;
     text-decoration: underline !important;
-    text-decoration-color: black !important;
+    text-decoration-color: #1e1f24 !important;
 }
 
 /* FIGURES */
