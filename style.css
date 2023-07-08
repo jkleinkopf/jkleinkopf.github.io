@@ -26,23 +26,22 @@ body {
 
 /* GALLERY */
 
-.gallery {
-    --z: 1px;
-    /* control the zig-zag  */
-    --s: 360px;
-    /* control the size */
-    --g: 8px;
-    /* control the gap */
-
-    display: grid;
-    gap: var(--g);
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    grid-auto-flow: column;
-}
-
 @media (min-width: 100px) and (max-width:400px) {
+    .gallery {
+        --z: 1px;
+        /* control the zig-zag  */
+        --s: 360px;
+        /* control the size */
+        --g: 8px;
+        /* control the gap */
+    
+        display: grid;
+        gap: var(--g);
+        width: 100vw;
+        height: 80;
+        overflow: hidden;
+        grid-auto-flow: column;
+    }
     h1 {
         font-size: 44px;
         font-family: 'Belanosima', sans-serif;
@@ -69,7 +68,7 @@ body {
     .gallery .figure {
         width: 0;
         min-width: calc(100% + var(--z)/1);
-        height: 80%;
+        height: 80vh;
         overflow: hidden;
         object-fit: cover;
         -webkit-mask: var(--mask);
@@ -80,7 +79,7 @@ body {
 
     .gallery .figure img {
         min-width: calc(100% + var(--z)/1);
-        height: 80%;
+        height: 80vh;
         object-fit: cover;
         -webkit-mask: var(--mask);
         mask: var(--mask);
@@ -129,6 +128,22 @@ body {
         object-fit: cover;
         -webkit-mask: var(--mask);
         mask: var(--mask);
+    }
+
+    .gallery {
+        --z: 1px;
+        /* control the zig-zag  */
+        --s: 360px;
+        /* control the size */
+        --g: 8px;
+        /* control the gap */
+    
+        display: grid;
+        gap: var(--g);
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        grid-auto-flow: column;
     }
 }
 
