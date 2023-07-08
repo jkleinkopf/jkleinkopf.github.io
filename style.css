@@ -44,7 +44,7 @@ body {
 
 @media (min-width: 100px) and (max-width:400px) {
     h1 {
-        font-size: 36px;
+        font-size: 44px;
         font-family: 'Belanosima', sans-serif;
         text-align: center;
         color: white;
@@ -54,7 +54,7 @@ body {
     }
 
     p {
-        font-size: 66px;
+        font-size: 100px;
         font-family: 'Caprasimo', cursive;
         text-align: left;
         margin: auto;
@@ -69,13 +69,21 @@ body {
     .gallery .figure {
         width: 0;
         min-width: calc(100% + var(--z)/1);
-        height: 90%;
+        height: 80%;
         overflow: hidden;
         object-fit: cover;
         -webkit-mask: var(--mask);
         mask: var(--mask);
         cursor: pointer;
         transition: .5s;
+    }
+
+    .gallery .figure img {
+        min-width: calc(100% + var(--z)/1);
+        height: 80%;
+        object-fit: cover;
+        -webkit-mask: var(--mask);
+        mask: var(--mask);
     }
 }
 
@@ -114,14 +122,14 @@ body {
         cursor: pointer;
         transition: .5s;
     }
-}
 
-.gallery .figure img {
-    min-width: calc(100% + var(--z)/1);
-    height: 100%;
-    object-fit: cover;
-    -webkit-mask: var(--mask);
-    mask: var(--mask);
+    .gallery .figure img {
+        min-width: calc(100% + var(--z)/1);
+        height: 100%;
+        object-fit: cover;
+        -webkit-mask: var(--mask);
+        mask: var(--mask);
+    }
 }
 
 .gallery .figure:hover p {
