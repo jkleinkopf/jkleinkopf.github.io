@@ -239,6 +239,14 @@ body {
     color: rgb(217, 156, 255);
 }
 
+.extra a{
+    color: rgb(255, 255, 255);
+}
+
+.extra a:hover{
+    color: rgb(225, 255, 30);
+}
+
 .contact {
     color: rgb(255, 255, 255);
 }
