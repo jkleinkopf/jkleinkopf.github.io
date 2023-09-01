@@ -249,6 +249,13 @@ p a:hover {
     /* padding-left: 10px; */
 }
 
+.navbar.scrolled {
+    background-color: #f7f7f7 !important;
+    transition: background-color 200ms linear;
+  }
+
+
+
 /* CONTAINERS */
 
 .content .container {

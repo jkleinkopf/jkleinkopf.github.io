@@ -14,4 +14,11 @@ $(".project").click(function() {
   return false;
 });
 
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height()/2);
+  });
+});
+
 }
