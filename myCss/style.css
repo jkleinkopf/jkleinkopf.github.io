@@ -128,6 +128,7 @@ h4,
 h5,
 h6 {
     font-family: 'Outfit', sans-serif !important;
+    /* font-family: 'EB Garamond', serif !important; */
     font-weight: 400 !important;
     color: #1e1f24 !important;
 }
@@ -136,7 +137,7 @@ html,
 body {
     scroll-behavior: smooth;
     height: 100%;
-    background-color: #f7f7f7 !important;
+    background-color: #fffdf7 !important;
 }
 
 h1 {
@@ -168,6 +169,7 @@ h4 {
 
 p {
     font-family: 'EB Garamond', serif;
+    /* font-family: 'Outfit', sans-serif !important; */
     font-size: large;
     color: #1e1f24;
 }
@@ -191,13 +193,13 @@ p a:hover {
 ::selection {
     background: rgb(0, 175, 0);
     /* WebKit/Blink Browsers */
-    color: #f7f7f7;
+    color: #fffdf7;
 }
 
 ::-moz-selection {
     background: rgb(0, 175, 0);
     /* WebKit/Blink Browsers */
-    color: #f7f7f7;
+    color: #fffdf7;
 }
 
 .center-img {
@@ -214,7 +216,9 @@ p a:hover {
 
 /* NAVBAR */
 .navbar {
-    font-family: 'Outfit', sans-serif !important
+    font-family: 'Outfit', sans-serif !important;
+    /* font-family: 'EB Garamond', serif !important; */
+    text-shadow: -1px 0 #fffdf7, 0 1px #fffdf7, 1px 0 #fffdf7, 0 -1px #fffdf7;
 }
 
 .navbar a:hover {
@@ -250,7 +254,7 @@ p a:hover {
 }
 
 .navbar.scrolled {
-    background-color: #f7f7f7 !important;
+    background-color: #fffdf7 !important;
     transition: background-color 200ms linear;
   }
 
@@ -387,7 +391,7 @@ body {
 
 .footer {
     flex-shrink: 0;
-    background-color: #f7f7f7;
+    background-color: #fffdf7;
     min-height: 50px;
     margin-top: 30px;
     padding-top: 10px;
