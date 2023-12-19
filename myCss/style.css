@@ -214,6 +214,10 @@ p a:hover {
     border: 3px solid rgb(0, 170, 255) !important;
 }
 
+.center-text {
+    text-align: center;
+}
+
 /* NAVBAR */
 .navbar {
     font-family: 'Outfit', sans-serif !important;
