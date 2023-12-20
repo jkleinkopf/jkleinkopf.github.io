@@ -211,7 +211,7 @@ p a:hover {
 }
 
 .center-img:hover {
-    border: 3px solid rgb(81, 32, 179) !important;
+    border: 3px solid rgb(166, 128, 255) !important;
 }
 
 .center-text {
@@ -226,7 +226,7 @@ p a:hover {
 }
 
 .navbar a:hover {
-    color: rgb(81, 32, 179) !important;
+    color: rgb(166, 128, 255) !important;
 }
 
 .navbar-brand {
@@ -285,7 +285,7 @@ p a:hover {
 }
 
 .project:hover {
-    border: 5px solid rgb(81, 32, 179)
+    border: 5px solid rgb(166, 128, 255)
 }
 
 .project:hover p {
@@ -309,7 +309,7 @@ p a:hover {
 }
 
 .mapping-project:hover {
-    border: 5px solid rgb(81, 32, 179);
+    border: 5px solid rgb(166, 128, 255);
 }
 
 .mapping-project a {
@@ -318,7 +318,7 @@ p a:hover {
 }
 
 .mapping-project:hover {
-    border: 5px solid rgb(81, 32, 179);
+    border: 5px solid rgb(166, 128, 255);
 }
 
 .mapping-project:hover p {
@@ -356,7 +356,7 @@ p a:hover {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 5px solid rgb(81, 32, 179);
+    border: 5px solid rgb(166, 128, 255);
 
 }
 
@@ -369,7 +369,7 @@ p a:hover {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 5px solid rgb(81, 32, 179);
+    border: 5px solid rgb(166, 128, 255);
 }
 
 .charlie:hover {
@@ -423,7 +423,7 @@ body {
 }
 
 .twitter:hover {
-    fill: rgb(81, 32, 179);
+    fill: rgb(166, 128, 255);
 }
 
 .github:hover {
