@@ -432,12 +432,17 @@ body {
     text-decoration: none !important;
 }
 
+
 .twitter:hover {
     fill: rgb(166, 128, 255);
 }
 
 .github:hover {
-    fill: #1e1f24;
+    fill: rgb(166, 128, 255);
+}
+
+.bluesky:hover {
+    fill: rgb(166, 128, 255);
 }
 
 /* PUBLICATIONS */
