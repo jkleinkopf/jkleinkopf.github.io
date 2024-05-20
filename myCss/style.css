@@ -228,6 +228,8 @@ p a:hover {
     font-family: 'Outfit', sans-serif !important;
     /* font-family: 'EB Garamond', serif !important; */
     text-shadow: -1px 0 #fffdf7, 0 1px #fffdf7, 1px 0 #fffdf7, 0 -1px #fffdf7;
+    background-color: #fffdf7 !important;
+
 }
 
 .navbar a:hover {
