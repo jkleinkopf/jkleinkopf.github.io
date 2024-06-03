@@ -539,14 +539,13 @@ body {
 .cb-slideshow li:nth-child(1) span { 
     background-image: url(../images/07.jpeg) 
 }
-
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../images/04.jpeg) 
+    background-image: url(../images/04.jpeg);
+    animation-delay: 6s; 
 }
-
 .cb-slideshow li:nth-child(3) span { 
     background-image: url(../images/02.jpeg);
-    animation-delay: 6s; 
+    animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
     background-image: url(../images/03.jpeg);
