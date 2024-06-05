@@ -419,7 +419,11 @@ body {
     font-size: small;
     color: rgb(0, 175, 0);
 }
-
+.footer p a {
+    font-family: 'Outfit', sans-serif !important;
+    font-size: small;
+    color: rgb(0, 175, 0) !important;
+}
 .footer .container {
     max-width: 960px !important;
 }
