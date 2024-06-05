@@ -541,43 +541,43 @@ body {
 }
 
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../images/07.jpeg) 
+    background-image: url(../images/04.jpeg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../images/04.jpeg);
-    animation-delay: 6s; 
+    background-image: url(../images/07.jpeg);
+    animation-delay: 4s; 
 }
 .cb-slideshow li:nth-child(3) span { 
     background-image: url(../images/02.jpeg);
-    animation-delay: 12s; 
+    animation-delay: 8s; 
 }
 .cb-slideshow li:nth-child(4) span { 
     background-image: url(../images/03.jpeg);
-    animation-delay: 18s; 
+    animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(5) span { 
     background-image: url(../images/05.jpeg);
-    animation-delay: 24s; 
+    animation-delay: 16s; 
 }
 .cb-slideshow li:nth-child(6) span { 
     background-image: url(../images/06.jpeg);
-    animation-delay: 30s; 
+    animation-delay: 20s; 
 }
 
 .cb-slideshow li:nth-child(2) div { 
-    animation-delay: 6s; 
+    animation-delay: 4s; 
 }
 .cb-slideshow li:nth-child(3) div { 
-    animation-delay: 12s; 
+    animation-delay: 8s; 
 }
 .cb-slideshow li:nth-child(4) div { 
-    animation-delay: 18s; 
+    animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(5) div { 
-    animation-delay: 24s; 
+    animation-delay: 16s; 
 }
 .cb-slideshow li:nth-child(6) div { 
-    animation-delay: 30s; 
+    animation-delay: 20s; 
 }
 
 @keyframes imageAnimation { 
