@@ -184,13 +184,13 @@ p a {
     text-decoration: underline !important;
 }
 
+p a:visited {
+    color: rgb(51, 0, 170) !important;
+}
+
 p a:hover {
     color: rgb(0, 175, 0) !important;
     text-decoration: underline !important;
-}
-
-p a:visited {
-    color: rgb(51, 0, 170) !important;
 }
 
 .content {
@@ -469,13 +469,13 @@ body {
     text-decoration: underline !important;
 }
 
+.pubs a:visited {
+    color: rgb(51, 0, 170) !important;
+}
+
 .pubs a:hover {
     color: rgb(0, 175, 0) !important;
     text-decoration: underline !important;
-}
-
-.pubs a:visited {
-    color: rgb(51, 0, 170) !important;
 }
 
 /* FIGURES */
