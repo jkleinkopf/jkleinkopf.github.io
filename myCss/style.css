@@ -180,15 +180,17 @@ p {
 }
 
 p a {
-    color: #1e1f24 !important;
+    color: rgb(166, 128, 255) !important;
     text-decoration: underline !important;
-    text-decoration-color: #1e1f24 !important;
 }
 
 p a:hover {
     color: rgb(0, 175, 0) !important;
     text-decoration: underline !important;
-    text-decoration-color: #1e1f24 !important;
+}
+
+p a:visited {
+    color: rgb(51, 0, 170) !important;
 }
 
 .content {
@@ -463,14 +465,17 @@ body {
 }
 
 .pubs a {
-    color: #1e1f24 !important;
+    color: rgb(166, 128, 255) !important;
     text-decoration: underline !important;
 }
 
 .pubs a:hover {
     color: rgb(0, 175, 0) !important;
     text-decoration: underline !important;
-    text-decoration-color: #1e1f24 !important;
+}
+
+.pubs a:visited {
+    color: rgb(51, 0, 170) !important;
 }
 
 /* FIGURES */
