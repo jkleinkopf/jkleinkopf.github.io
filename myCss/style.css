@@ -376,7 +376,8 @@ p a:hover {
 
 .profile:hover {
     border: 5px solid rgb(0, 175, 0);
-    background-image: url(../images/3-orbifold-voronoi-animated.gif);
+    background-image: url(../images/daisy.gif);
+    background-size: contain;
 }
 
 .charlie {
@@ -388,7 +389,8 @@ p a:hover {
 
 .charlie:hover {
     border: 5px solid rgb(0, 175, 0);
-    background-image: url(../images/3-orbifold-voronoi-animated.gif);
+    background-image: url(../images/daisy.gif);
+    background-size: contain;
 
 }
 
