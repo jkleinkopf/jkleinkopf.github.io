@@ -287,6 +287,11 @@ p a:hover {
     /* border: 5px solid rgb(0, 175, 0); */
     border-radius: 15px;
 }
+
+.project img {
+    background-color: transparent !important;
+}
+
 .row {
     display: inline-block ;
     height: 100% !important;
