@@ -128,11 +128,18 @@ h4,
 h5,
 h6 {
     font-family: 'Outfit', sans-serif !important;
-    /* font-family: 'EB Garamond', serif !important; */
+    /* font-family: 'Calistoga', serif !important; */
     font-weight: 400 !important;
     color: #1e1f24 !important;
 }
 
+.calistoga-regular {
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
 html,
 body {
     scroll-behavior: smooth;
@@ -172,8 +179,8 @@ h4 {
 }
 
 p {
-    /* font-family: 'EB Garamond', serif; */
     font-family: 'Outfit', sans-serif !important;
+    /* font-family: 'Calistoga', serif !important; */
     font-size: large;
     font-weight: 100;
     color: #1e1f24;
@@ -228,7 +235,9 @@ p a:hover {
 /* NAVBAR */
 .navbar {
     font-family: 'Outfit', sans-serif !important;
-    /* font-family: 'EB Garamond', serif !important; */
+    /* font-family: 'Calistoga', serif !important; */
+    /* font-weight: 400; */
+    /* font-style: normal; */
     text-shadow: -1px 0 #fffdf7, 0 1px #fffdf7, 1px 0 #fffdf7, 0 -1px #fffdf7;
     background-color: #fffdf7 !important;
 
@@ -553,26 +562,26 @@ body {
 }
 
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../images/08.jpeg) 
+    background-image: url(../images/08.webp) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../images/04.jpeg);
+    background-image: url(../images/04.webp);
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(../images/07.jpeg);
+    background-image: url(../images/07.webp);
     animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url(../images/03.jpeg);
+    background-image: url(../images/03.webp);
     animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url(../images/05.jpeg);
+    background-image: url(../images/05.webp);
     animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(6) span { 
-    background-image: url(../images/06.jpeg);
+    background-image: url(../images/06.webp);
     animation-delay: 30s; 
 }
 
