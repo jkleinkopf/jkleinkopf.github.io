@@ -174,7 +174,7 @@ h3 {
 } */
 
 /* h3 a:hover {
-    color:rgb(0, 175, 0)!important;
+    color:rgb(25, 149, 39)!important;
     text-decoration: none !important;
     text-decoration-color: black !important;
 } */
@@ -193,16 +193,16 @@ p {
 }
 
 p a {
-    color: rgb(166, 128, 255) !important;
+    color: rgb(85, 73, 255) !important;
     text-decoration: underline !important;
 }
 
 p a:visited {
-    color: rgb(51, 0, 170) !important;
+    color: rgb(180, 108, 247) !important;
 }
 
 p a:hover {
-    color: rgb(0, 175, 0) !important;
+    color: rgb(25, 149, 39) !important;
     text-decoration: underline !important;
 }
 
@@ -211,13 +211,13 @@ p a:hover {
 }
 
 ::selection {
-    background: rgb(0, 175, 0);
+    background: rgb(25, 149, 39);
     /* WebKit/Blink Browsers */
     color: #fffdf7;
 }
 
 ::-moz-selection {
-    background: rgb(0, 175, 0);
+    background: rgb(25, 149, 39);
     /* WebKit/Blink Browsers */
     color: #fffdf7;
 }
@@ -231,7 +231,7 @@ p a:hover {
 }
 
 .center-img:hover {
-    border: 3px solid rgb(166, 128, 255) !important;
+    border: 3px solid rgb(85, 73, 255) !important;
 }
 
 .center-text {
@@ -250,7 +250,7 @@ p a:hover {
 }
 
 .navbar a:hover {
-    color: rgb(166, 128, 255) !important;
+    color: rgb(85, 73, 255) !important;
 }
 
 .navbar-brand {
@@ -274,7 +274,7 @@ p a:hover {
 
 .active {
     /* text-decoration: underline !important; */
-    color: rgb(0, 175, 0) !important;
+    color: rgb(25, 149, 39) !important;
     font-weight: bolder;
     /* color: white !important; */
     /* border-radius: 20px; */
@@ -299,7 +299,7 @@ p a:hover {
     margin-top: 40px;
     padding: 20px;
     padding-bottom: 0px;
-    /* border: 5px solid rgb(0, 175, 0); */
+    /* border: 5px solid rgb(25, 149, 39); */
     border-radius: 15px;
 }
 
@@ -323,27 +323,27 @@ p a:hover {
 /* } */
 
 /* .project:hover p { */
-    /* color: rgb(0, 175, 0) !important; */
+    /* color: rgb(25, 149, 39) !important; */
 /* } */
 
 /* .project:hover a { */
-    /* color: rgb(0, 175, 0) !important; */
+    /* color: rgb(25, 149, 39) !important; */
 /* } */
 
 /* .project:hover img {
-    border: 3px solid rgb(0, 175, 0);
+    border: 3px solid rgb(25, 149, 39);
 } */ */
 
 .mapping-project {
     margin-top: 40px;
     padding: 20px;
     padding-bottom: 0px;
-    border: 5px solid rgb(0, 175, 0);
+    border: 5px solid rgb(25, 149, 39);
     border-radius: 15px;
 }
 
 .mapping-project:hover {
-    border: 5px solid rgb(166, 128, 255);
+    border: 5px solid rgb(85, 73, 255);
 }
 
 .mapping-project a {
@@ -352,23 +352,23 @@ p a:hover {
 }
 
 .mapping-project:hover {
-    border: 5px solid rgb(166, 128, 255);
+    border: 5px solid rgb(85, 73, 255);
 }
 
 .mapping-project:hover p {
-    color: rgb(0, 175, 0) !important;
+    color: rgb(25, 149, 39) !important;
 }
 
 .mapping-project:hover a {
-    color: rgb(0, 175, 0) !important;
+    color: rgb(25, 149, 39) !important;
 }
 
 /* .mapping-project:hover img {
-    border: 3px solid rgb(0, 175, 0);
+    border: 3px solid rgb(25, 149, 39);
 } */
 
 .twitter-timeline {
-    border: 3px solid rgb(0, 175, 0);
+    border: 3px solid rgb(25, 149, 39);
     border-radius: 15px;
 }
 
@@ -390,12 +390,12 @@ p a:hover {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 5px solid rgb(166, 128, 255);
+    border: 5px solid rgb(85, 73, 255);
 
 }
 
 .profile:hover {
-    border: 5px solid rgb(0, 175, 0);
+    border: 5px solid rgb(25, 149, 39);
     background-image: url(../images/daisy.gif);
     background-size: contain;
 }
@@ -404,11 +404,11 @@ p a:hover {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 5px solid rgb(166, 128, 255);
+    border: 5px solid rgb(85, 73, 255);
 }
 
 .charlie:hover {
-    border: 5px solid rgb(0, 175, 0);
+    border: 5px solid rgb(25, 149, 39);
     background-image: url(../images/daisy.gif);
     background-size: contain;
 
@@ -441,12 +441,13 @@ body {
 .footer p {
     font-family: 'Outfit', sans-serif !important;
     font-size: small;
-    color: rgb(0, 175, 0);
+    /* color: rgb(0, 175, a0); */
+    color: rgb(25, 149, 39);
 }
 .footer p a {
     font-family: 'Outfit', sans-serif !important;
     font-size: small;
-    color: rgb(0, 175, 0) !important;
+    color: rgb(25, 149, 39) !important;
 }
 .footer .container {
     max-width: 960px !important;
@@ -455,7 +456,7 @@ body {
 .footer svg {
     height: 15px;
     margin: 5px auto;
-    fill: rgb(0, 175, 0);
+    fill: rgb(25, 149, 39);
 }
 
 .footer a {
@@ -464,15 +465,15 @@ body {
 
 
 .scholar:hover {
-    fill: rgb(166, 128, 255);
+    fill: rgb(85, 73, 255);
 }
 
 .github:hover {
-    fill: rgb(166, 128, 255);
+    fill: rgb(85, 73, 255);
 }
 
 .bluesky:hover {
-    fill: rgb(166, 128, 255);
+    fill: rgb(85, 73, 255);
 }
 
 /* PUBLICATIONS */
@@ -487,7 +488,7 @@ body {
 }
 
 .pubs a {
-    color: rgb(166, 128, 255) !important;
+    color: rgb(85, 73, 255) !important;
     text-decoration: underline !important;
 }
 
@@ -496,7 +497,7 @@ body {
 }
 
 .pubs a:hover {
-    color: rgb(0, 175, 0) !important;
+    color: rgb(25, 149, 39) !important;
     text-decoration: underline !important;
 }
 
@@ -511,7 +512,7 @@ body {
 
 .twitter-timeline {
     margin-top: 64px;
-    border: 3px solid rgb(0, 175, 0) !important;
+    border: 3px solid rgb(25, 149, 39) !important;
     border-radius: 15px !important;
 }
 
