@@ -174,7 +174,7 @@ h3 {
 } */
 
 /* h3 a:hover {
-    color:rgb(25, 149, 39)!important;
+    color:rgb(53, 182, 91)!important;
     text-decoration: none !important;
     text-decoration-color: black !important;
 } */
@@ -202,7 +202,7 @@ p a:visited {
 }
 
 p a:hover {
-    color: rgb(25, 149, 39) !important;
+    color: rgb(53, 182, 91) !important;
     text-decoration: underline !important;
 }
 
@@ -211,13 +211,13 @@ p a:hover {
 }
 
 ::selection {
-    background: rgb(25, 149, 39);
+    background: rgb(53, 182, 91);
     /* WebKit/Blink Browsers */
     color: #fffdf7;
 }
 
 ::-moz-selection {
-    background: rgb(25, 149, 39);
+    background: rgb(53, 182, 91);
     /* WebKit/Blink Browsers */
     color: #fffdf7;
 }
@@ -274,7 +274,7 @@ p a:hover {
 
 .active {
     /* text-decoration: underline !important; */
-    color: rgb(25, 149, 39) !important;
+    color: rgb(53, 182, 91) !important;
     font-weight: bolder;
     /* color: white !important; */
     /* border-radius: 20px; */
@@ -299,7 +299,7 @@ p a:hover {
     margin-top: 40px;
     padding: 20px;
     padding-bottom: 0px;
-    /* border: 5px solid rgb(25, 149, 39); */
+    /* border: 5px solid rgb(53, 182, 91); */
     border-radius: 15px;
 }
 
@@ -323,22 +323,22 @@ p a:hover {
 /* } */
 
 /* .project:hover p { */
-    /* color: rgb(25, 149, 39) !important; */
+    /* color: rgb(53, 182, 91) !important; */
 /* } */
 
 /* .project:hover a { */
-    /* color: rgb(25, 149, 39) !important; */
+    /* color: rgb(53, 182, 91) !important; */
 /* } */
 
 /* .project:hover img {
-    border: 3px solid rgb(25, 149, 39);
+    border: 3px solid rgb(53, 182, 91);
 } */ */
 
 .mapping-project {
     margin-top: 40px;
     padding: 20px;
     padding-bottom: 0px;
-    border: 5px solid rgb(25, 149, 39);
+    border: 5px solid rgb(53, 182, 91);
     border-radius: 15px;
 }
 
@@ -356,19 +356,19 @@ p a:hover {
 }
 
 .mapping-project:hover p {
-    color: rgb(25, 149, 39) !important;
+    color: rgb(53, 182, 91) !important;
 }
 
 .mapping-project:hover a {
-    color: rgb(25, 149, 39) !important;
+    color: rgb(53, 182, 91) !important;
 }
 
 /* .mapping-project:hover img {
-    border: 3px solid rgb(25, 149, 39);
+    border: 3px solid rgb(53, 182, 91);
 } */
 
 .twitter-timeline {
-    border: 3px solid rgb(25, 149, 39);
+    border: 3px solid rgb(53, 182, 91);
     border-radius: 15px;
 }
 
@@ -395,7 +395,7 @@ p a:hover {
 }
 
 .profile:hover {
-    border: 5px solid rgb(25, 149, 39);
+    border: 5px solid rgb(53, 182, 91);
     background-image: url(../images/daisy.gif);
     background-size: contain;
 }
@@ -408,7 +408,7 @@ p a:hover {
 }
 
 .charlie:hover {
-    border: 5px solid rgb(25, 149, 39);
+    border: 5px solid rgb(53, 182, 91);
     background-image: url(../images/daisy.gif);
     background-size: contain;
 
@@ -442,12 +442,12 @@ body {
     font-family: 'Outfit', sans-serif !important;
     font-size: small;
     /* color: rgb(0, 175, a0); */
-    color: rgb(25, 149, 39);
+    color: rgb(53, 182, 91);
 }
 .footer p a {
     font-family: 'Outfit', sans-serif !important;
     font-size: small;
-    color: rgb(25, 149, 39) !important;
+    color: rgb(53, 182, 91) !important;
 }
 .footer .container {
     max-width: 960px !important;
@@ -456,7 +456,7 @@ body {
 .footer svg {
     height: 15px;
     margin: 5px auto;
-    fill: rgb(25, 149, 39);
+    fill: rgb(53, 182, 91);
 }
 
 .footer a {
@@ -493,11 +493,11 @@ body {
 }
 
 .pubs a:visited {
-    color: rgb(51, 0, 170) !important;
+    color: rgb(180, 108, 247) !important;
 }
 
 .pubs a:hover {
-    color: rgb(25, 149, 39) !important;
+    color: rgb(53, 182, 91) !important;
     text-decoration: underline !important;
 }
 
@@ -512,7 +512,7 @@ body {
 
 .twitter-timeline {
     margin-top: 64px;
-    border: 3px solid rgb(25, 149, 39) !important;
+    border: 3px solid rgb(53, 182, 91) !important;
     border-radius: 15px !important;
 }
 
