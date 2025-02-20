@@ -463,6 +463,9 @@ body {
     text-decoration: none !important;
 }
 
+.bionomia:hover {
+    fill: rgb(85, 73, 255);
+}
 
 .scholar:hover {
     fill: rgb(85, 73, 255);
