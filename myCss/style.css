@@ -150,7 +150,7 @@ html,
 body {
     scroll-behavior: smooth;
     height: 100%;
-    background-color: #fffdf7 !important;
+    background-color: #fffefc !important;
 }
 
 h1 {
@@ -213,13 +213,13 @@ p a:hover {
 ::selection {
     background: rgb(53, 182, 91);
     /* WebKit/Blink Browsers */
-    color: #fffdf7;
+    color: #fffefc;
 }
 
 ::-moz-selection {
     background: rgb(53, 182, 91);
     /* WebKit/Blink Browsers */
-    color: #fffdf7;
+    color: #fffefc;
 }
 
 .center-img {
@@ -244,8 +244,8 @@ p a:hover {
     /* font-family: 'Calistoga', serif !important; */
     font-weight: 500;
     /* font-style: normal; */
-    text-shadow: -1px 0 #fffdf7, 0 1px #fffdf7, 1px 0 #fffdf7, 0 -1px #fffdf7;
-    background-color: #fffdf7 !important;
+    text-shadow: -1px 0 #fffefc, 0 1px #fffefc, 1px 0 #fffefc, 0 -1px #fffefc;
+    background-color: #fffefc !important;
 
 }
 
@@ -282,7 +282,7 @@ p a:hover {
 }
 
 .navbar.scrolled {
-    background-color: #fffdf7 !important;
+    background-color: #fffefc !important;
     transition: background-color 200ms linear;
   }
 
@@ -431,7 +431,7 @@ body {
 
 .footer {
     flex-shrink: 0;
-    background-color: #fffdf7;
+    background-color: #fffefc;
     min-height: 50px;
     margin-top: 30px;
     padding-top: 10px;
