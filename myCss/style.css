@@ -572,22 +572,22 @@ body {
 }
 
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../images/08.webp) 
+    background-image: url(../images/04.webp) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../images/04.webp);
+    background-image: url(../images/08.webp);
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(../images/07.webp);
+    background-image: url(../images/10.webp);
     animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url(../images/03.webp);
+    background-image: url(../images/07.webp);
     animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url(../images/05.webp);
+    background-image: url(../images/09.webp);
     animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(6) span { 
@@ -623,7 +623,7 @@ body {
     0% { opacity: 0 }
     8% { opacity: 1 }
     17% { opacity: 1 }
-    19% { opacity: 0 }
+    19% { opacity: 1 }
     100% { opacity: 0 }
 }
 
