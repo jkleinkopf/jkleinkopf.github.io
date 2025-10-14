@@ -504,22 +504,17 @@ body {
     text-decoration: underline !important;
 }
 
+/* DESIGN AND MEDIA */
+
+
+
+
 /* FIGURES */
 
 .figure-caption {
     font-size: small;
     color: rgb(158, 158, 158);
 }
-
-/* EMBEDDED */
-
-.twitter-timeline {
-    margin-top: 64px;
-    border: 3px solid rgb(53, 182, 91) !important;
-    border-radius: 15px !important;
-}
-
-
 
 
 /* HOMEPAGE BACKGROUND */
